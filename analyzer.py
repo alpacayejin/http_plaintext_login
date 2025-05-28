@@ -3,6 +3,9 @@ import os
 from analysis.detector import is_login_attempt
 from analysis.extractor import extract_info
 
+os.makedirs("report", exist_ok=True)
+os.makedirs("captures", exist_ok=True)
+
 CAPTURE_FILE = 'captures/sample.pcapng'
 TXT_RESULT = 'report/result.txt'
 MD_RESULT = 'report/result.md'
