@@ -58,7 +58,8 @@ python analyzer.py
 - `report/result.txt`: 평문 텍스트 요약
 - `report/result.md`: Markdown 포맷 리포트 (가독성 ↑)
 
-## 로그인 키워드 기준 
+
+## 📌 로그인 키워드 기준 
 URI나 HTTP 페이로드에 아래 키워드가 포함되면 로그인 시도로 간주합니다.
 
 - `login`, `logon`, `signin`
@@ -66,13 +67,13 @@ URI나 HTTP 페이로드에 아래 키워드가 포함되면 로그인 시도로
 - `pass`, `password`
 
 
-## 향후 개선 아이디어
+## 🛠  향후 개선 아이디어
 - HTTPS 트래픽 탐지를 위한 SSL/TLS 복호화 기능
 - WebSocket 기반 인증 탐지
 - GUI 리포트 (HTML 시각화)
 - 자동 시간대 필터 및 IP 필터링 기능
 
 
-## 작성자
+## 👤 작성자
 - 프로젝트 담당: 양예진
 
